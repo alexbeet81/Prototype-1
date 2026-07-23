@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6154969737521058296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588962260124171047}
+  - component: {fileID: 2262039374109459926}
+  m_Layer: 0
+  m_Name: TrafficSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &588962260124171047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6154969737521058296}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9999985, z: -0, w: -0.0017572192}
+  m_LocalPosition: {x: -4.13, y: 0, z: 111.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180.201, z: 0}
+--- !u!114 &2262039374109459926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6154969737521058296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc29fa93d3a3ef42af8dc582ec9b26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Traffic
+  vehiclePrefabs:
+  - {fileID: 8813556473714941753, guid: 663cbea9d3132304f94df5f9d74105d9, type: 3}
+  - {fileID: 7254949664806786926, guid: 88f1bc5405a4eba47bce578f4971e96a, type: 3}
+  - {fileID: 1551309642594813897, guid: e1f75a03e1e1cde4ca18a6914e763b1c, type: 3}
+  - {fileID: 2452381471403371889, guid: f2d0ccd100b664746ba48e74f0b2c526, type: 3}
+  - {fileID: 8813556473714941753, guid: 663cbea9d3132304f94df5f9d74105d9, type: 3}
+  - {fileID: 9091663797787404051, guid: fabd9c81634c6a4409ebd7c8f7597ab9, type: 3}
+  spawnInterval: 3
